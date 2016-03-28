@@ -5,7 +5,7 @@
 
 import urllib2, socket, json, util
 
-RATING_DIFF = 0.001
+RATING_DIFF = 0.000
 ENABLE_DIFF = util.settingBool("enableDiff")
 SEPARATOR = util.setting("separator").strip()
 
