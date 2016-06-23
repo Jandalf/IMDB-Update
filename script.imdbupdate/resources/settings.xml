@@ -1,33 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
-	<category label="General">
-		<setting type="lsep" label="Movies"/>
-		<setting id="separator"			type="labelenum"	default=" "				label="thousands separator" values=" |.|," />
-		<setting id="hideMovies"		type="bool"			default="false"			label="hide progress" />
-		<setting id="deamonMovies"		type="bool"			default="false"			label="run periodically (weekly)" />
+	<category label="31000">
+		<setting type="lsep" label="30102"/>
+		<setting id="separator"			type="labelenum"	default=" "				label="31001" values=" |.|," />
+		<setting id="hideMovies"		type="bool"			default="false"			label="31002" />
+		<setting id="deamonMovies"		type="bool"			default="false"			label="31003" />
 
-		<setting type="lsep" label="Top250"/>
-		<setting id="hideTop250"		type="bool"			default="false"			label="hide progress" />
-		<setting id="deamonTop250"		type="bool"			default="false"			label="run periodically (weekly)" />
+		<setting type="lsep" label="30101"/>
+		<setting id="hideTop250"		type="bool"			default="false"			label="31002" />
+		<setting id="deamonTop250"		type="bool"			default="false"			label="31003" />
 
 		<setting type="lsep" label="MPAA"/>
-		<setting id="mpaaLang"			type="labelenum"	default="us"			label="MPAA system" values="us|de|au|nl" />
-		<setting id="hideMpaa"			type="bool"			default="false"			label="hide progress" />
-		<setting id="deamonMpaa"		type="bool"			default="false"			label="run periodically (weekly)" />
+		<setting id="mpaaLang"			type="labelenum"	default="us"			label="31004" values="us|de|au|nl" />
+		<setting id="hideMpaa"			type="bool"			default="false"			label="31002" />
+		<setting id="deamonMpaa"		type="bool"			default="false"			label="31003" />
 		<setting id="firstMpaaRun"		type="bool"			default="true"			visible="false" />
 	</category>
 
-	<category label="Advanced">
-		<setting type="lsep" label="Movies"/>
-		<setting id="enableResume"		type="bool"			default="true"			label="enable resume point" />
-		<setting id="enableDiff"		type="bool"			default="true"			label="enable rating difference" />
+	<category label="31011">
+		<setting type="lsep" label="30102"/>
+		<setting id="enableResume"		type="bool"			default="true"			label="31005" />
+		<setting id="enableDiff"		type="bool"			default="true"			label="31006" />
 
-		<setting type="lsep" label="Top250"/>
-		<setting id="openMissingFile"	type="bool"			default="false"			label="show missing Top250 movies after each run" />
-		<setting id="imdbLang" 			type="text" 								label="IMDb language" />
+		<setting type="lsep" label="30101"/>
+		<setting id="openMissingFile"	type="bool"			default="false"			label="31007" />
+		<setting id="imdbLang" 			type="text" 								label="31008" />
 
 		<setting type="lsep" label="MPAA"/>
-		<setting id="enableMpaaPrefix"	type="bool"			default="false"			label="change prefix" />
-		<setting id="mpaaPrefix" 		type="text" 		visible="eq(-1,true)"	label="prefix" />
+		<setting id="enableMpaaPrefix"	type="bool"			default="false"			label="31009" />
+		<setting id="mpaaPrefix" 		type="text" 		visible="eq(-1,true)"	label="31010" />
 	</category>
 </settings>
+
