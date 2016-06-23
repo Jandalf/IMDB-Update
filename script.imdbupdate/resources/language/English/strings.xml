@@ -89,4 +89,17 @@
      <string id="30202">Show Top250</string>
      <string id="30203">MPAA Update</string>
      <string id="30204">Choose your MPAA system</string>
+     <!-- Strings for Settings -->
+     <string id="31000">General</string>
+     <string id="31001">thousands separator</string>
+     <string id="31002">hide progress</string>
+     <string id="31003">run periodically (weekly)</string>
+     <string id="31004">MPAA system</string>
+     <string id="31005">enable resume point</string>
+     <string id="31006">enable rating difference</string>
+     <string id="31007">show missing Top250 movies after each run</string>
+     <string id="31008">IMDb language</string>
+     <string id="31009">change prefix</string>
+     <string id="31010">prefix</string>
+     <string id="31011">Advanced</string>
 </strings>
